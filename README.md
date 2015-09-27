@@ -16,8 +16,8 @@ Instead I read character strings from source files and then manipulate them to o
 
 * Read data on measurements, test and train data separaely
 * Merge the training and the test sets to create united data sets:
-  main data set (with measurements)
-  labels (what kind of activity was measured)
+  main data set (with measurements),
+  labels (what kind of activity was measured),
   subjects (whose activity was measured)
 
 * Add data on labels and subjects to the main data set

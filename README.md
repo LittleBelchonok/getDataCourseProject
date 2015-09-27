@@ -17,9 +17,10 @@ Instead I read character strings from source files and then manipulate them to o
 1. Read data on measurements, test and train data separaely
 
 2. Merge the training and the test sets to create united data sets:
-- main data set (with measurements),
-- labels (what kind of activity was measured),
-- subjects (whose activity was measured)
+
+* main data set (with measurements)
+* labels (what kind of activity was measured)
+* subjects (whose activity was measured)
 
 3. Add data on labels and subjects to the main data set
 
@@ -28,8 +29,9 @@ Instead I read character strings from source files and then manipulate them to o
 5. Add label names (i.e. activity names) to the main data set
 
 6. Extract only the measurements on the mean and standard deviation for each measurement:
-- decide which variables we need (only means and stdevs) and
-- remove all other variables from the list
+
+* decide which variables we need (only means and stdevs) and
+* remove all other variables from the list
 
 7. For each variable add variable values to main data set and name them properly
 

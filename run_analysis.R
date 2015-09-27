@@ -1,5 +1,5 @@
 # This script prepares tidy data set for "Getting and Cleaning Data" course project
-# Make sure you've place source data (/test, /traind dirs and other files) to the working directory before launching the script
+# Make sure you've placed source data (/test, /traind dirs and other files) to the working directory before running the script
 
 # I would happily use "read.fwf" to read the data set, but I didn't manage to make it work for big files
 # Instead I read character strings from source files and then manipulate them to obtain the data on means and stdevs
